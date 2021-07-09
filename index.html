@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Base Settings: CSS and fonts-->
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Assignment 2</title>
+</head>
+<body>
+    <!--Entire content is here:-->
+    <div class="all">
+        <span>Search your car: </span>
+        <!--The buttons have a onclick tag to link with js as as an action the customer does-->
+        <button onclick="make()">By Make</button>
+        <button onclick="model()">By Model</button>
+        <button onclick="color()">By Color</button>
+        <button onclick="price()">By Price</button>
+    
+        <p id="result-message"></p>
+    </div>
+
+    <!--Here is the .js-->
+    <script type="text/javascript" src="./index.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+/* Everything is just the basics to make the site look nice. */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border-style: none;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #7f8c8d;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    border-collapse: collapse;
+}
+
+.all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+span{
+    font-size: 4rem;
+    margin: 5rem
+}
+
+button {
+    margin: 1rem;
+    background-color: black; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+p{
+    font-size: 2rem;
+}
